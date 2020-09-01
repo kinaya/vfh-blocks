@@ -1,0 +1,24 @@
+/**
+ * The following styles get applied inside the editor only.
+ */
+
+.admin-area {
+ 	background-color: #fef8ee;
+ 	padding: 1rem 1rem 1rem 1rem;
+ 	border: 1px solid rgba(0,0,0,.2);
+ }
+
+.editor-styles-wrapper .components-base-control__label {
+	display: block;
+}
+
+.editor-styles-wrapper .wp-block p {
+	font-size: 1.2rem;
+	line-height: 1.4;
+	margin: 0;
+}
+
+.editor-styles-wrapper .wp-block h4 {
+	font-size: 1.6rem;
+	margin: 0 0 0.5rem 0;
+}

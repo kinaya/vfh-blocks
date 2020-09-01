@@ -1,0 +1,53 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ */
+
+.block-heading {
+	border-bottom: 1px solid black;
+	text-transform: uppercase;
+	@media(min-width: 700px) {
+		font-size: 20px;
+	}
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	> div {
+		flex-basis: 32%;
+	}
+	&.items-1 > div {
+		flex-basis: 100%;
+	}
+	&.items-4 > div,
+	&.items-2 > div {
+		flex-basis: 49%;
+	}
+}
+
+.post-preview {
+	border: 1px solid gray;
+	padding: 1rem;
+	background-color: white;
+	margin-bottom: 0.7rem;
+	position: relative;
+
+	p {
+		margin: 0;
+	}
+
+	button {
+		position: absolute;
+		top: 0.2rem;
+		right: 0.2rem;
+	}
+
+}
+
+// Front end only
+.entry-content .post-preview h4 {
+	margin: 0.5rem 0 0.8rem 0;
+}

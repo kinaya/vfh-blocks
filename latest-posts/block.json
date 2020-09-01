@@ -1,0 +1,13 @@
+{
+	"name": "vfh-blocks/vfh-latest-posts",
+	"title": "VFH Latest Posts",
+	"category": "widgets",
+	"icon": "smiley",
+	"textdomain": "vfh-blocks",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
