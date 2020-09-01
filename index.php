@@ -10,5 +10,20 @@
 
 defined( 'ABSPATH' ) || exit;
 
+/*
+* Custom category for blocks
+*/
+add_filter('block_categories', function( $categories, $post ) {
+  return array_merge(
+    $categories,
+    array(
+      array(
+        'slug'  => 'vfh',
+        'title' => 'VFH',
+      ),
+    )
+  );
+}, 10, 2 );
+
 include 'recommended/index.php';
 include 'latest-posts/index.php';

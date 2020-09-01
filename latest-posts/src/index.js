@@ -10,7 +10,7 @@ registerBlockType( 'vfh-blocks/vfh-latest-posts', {
 		'Widget with latest posts',
 		'vfh-blocks'
 	),
-	category: 'widgets',
+	category: 'vfh',
 	icon: 'screenoptions',
 	supports: {
 		html: false,

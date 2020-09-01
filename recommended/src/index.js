@@ -11,7 +11,7 @@ registerBlockType( 'vfh-blocks/vfh-recommended', {
 		'Widget with recommended posts',
 		'vfh-blocks'
 	),
-	category: 'widgets',
+	category: 'vfh',
 	icon: 'screenoptions',
 	supports: {
 		html: false,
